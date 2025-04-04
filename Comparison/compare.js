@@ -56,9 +56,9 @@ const peyaraPrice = 40
 const applePrice = 250
 // console.log(peyaraPrice > applePrice)
 
-const myName= ('ToHiN').toLowerCase()
+const MyName= ('ToHiN').toLowerCase()
 const newName = ('tOhIn').toLowerCase()
-// console.log(myName == newName)
+// console.log(MyName == newName)
 
 const myPromise = true
 const friendPromise = false
@@ -109,3 +109,67 @@ const realmadred = 2
 const barcelona = 3
 // console.log(realmadred < barcelona)
 
+
+// 7
+const myName = 'Rahim'
+const friendName = 'Karim'
+// console.log(myName == friendName)    
+
+
+// 8
+const isIRead = true
+const isFriendRead = false
+// console.log(isIRead == isFriendRead)
+
+
+
+
+
+// Double or triple equal (=== or ==)
+
+
+const comNumber1 = 10
+const comNumber2 = '10'
+// console.log(comNumber1 === comNumber2) // false
+// console.log(comNumber1 == comNumber2) // true
+
+// Compare page (73)
+// 1
+const myTaka = 50
+const friendTaka = '50'
+// console.log(myTaka == friendTaka) // true
+// console.log(myTaka === friendTaka) // false
+
+
+// 2
+// console.log("JavaScript"== 'JavaScript') 
+// console.log("JavaScript"=== 'JavaScript') 
+
+
+ // 3
+// console.log(25 == '25') // only value compare
+// console.log(25 === '25') // value and type compare
+
+
+// 4
+// console.log('apple' == 'apple') // true
+// console.log('apple' === 'apple') // true
+
+
+// 5
+// console.log('test' =='TEST') 
+// console.log('test' === 'TEST') // false
+
+
+// 6
+const x= 15
+const y= '20'
+// console.log(x != y)
+// console.log(x !== y) // false
+
+
+// 7
+const A = "hello"
+const B = "Hello"
+console.log(A == B) // false
+console.log(A === B) // false
