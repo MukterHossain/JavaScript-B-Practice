@@ -287,3 +287,145 @@ if(playerLavel < 10){
 }else {
     // console.log('Pro Gamer')
 }
+
+
+
+
+// ****************************  Nested if else  page(84) *********************************
+const wonMoney = 400
+const popcorn = 40 
+if(wonMoney > 300){
+    // console.log('I will go to see a movie')
+    if(popcorn < 50){
+        // console.log('I will buy popcorn')
+    }else{
+        // console.log('I will not buy popcorn')
+    }
+}else{
+    // console.log('Home Alone')
+}
+
+// page (86)
+// 1
+const inviteMoney = 1200
+const isInvite = true
+if(isInvite == true){
+    // console.log('I will go to the party')
+    if(inviteMoney > 1000){
+        // console.log('I will buy a gift')
+    }
+    else{
+        // console.log('I will not buy a gift')
+    }
+}else{
+    // console.log('I will remove the friend slist')
+}
+
+// 2
+const tea = true
+const biscuit = false
+if(tea == true){
+    if(biscuit == true){
+        // console.log('I will eat biscuit with tea')
+    }else{
+        // console.log('I will drink tea only')
+    }
+}else{
+    // console.log('I will drink water')
+}
+
+// 3
+const userActive = true
+const subscription = 'premium'
+if(userActive == true){
+    if(subscription == 'premium'){
+        // console.log('He will see Premium content')
+    }else{
+        // console.log('He will see free content')
+    }
+}else{
+    // console.log('user is not active')
+}
+
+// 4
+const isFood = false
+const isFoodApp = false
+if(isFood == true){
+    // console.log('Food is available')
+} else if(isFoodApp == true){
+    // console.log('I will order food from app')
+} else{
+    // console.log('I am Fassting')
+}
+
+// 5
+const geust = 250 
+const gift = true
+if(geust > 100){
+    if(gift == true){
+        // console.log('I will give a gift')
+    } else{
+        // console.log('I will not give a gift')
+    }
+}else{
+    // console.log('all friends are bolod')
+}
+
+
+// *********************  Logical NOT (!)  page(86) *********************
+const isPassed = false
+if(!isPassed){
+    // console.log('I am passed')
+}else{
+    // console.log('I am failed')
+}
+
+// ******************  Tarnary oparator page(88) *********************
+const voteAge = 10
+const TakeVote  = voteAge >= 18 ? 'I can vote' : 'I can not vote'
+// console.log(TakeVote)
+// voteAge>= 15 ? console.log("He loves her mother") : console.log('He loves his father and mother')
+
+let ricePrice = 500
+let isLeader = true
+if(!isLeader){
+    const pay =  0
+    // console.log(pay)
+}else{
+    const pay = ricePrice + 100
+    // console.log(pay)
+}
+// isLeader ? console.log(0) : console.log(ricePrice + 100)
+
+
+
+// page (90)
+// 1 
+let cashback = []
+let productPrice= 4000
+// productPrice >= 3000 ? console.log(cashback = 300) : console.log(cashback=0)
+
+// 2
+const yourAge = 16
+// yourAge >= 15 ? console.log('teenager') : console.log('child')
+
+// 3
+const isLogedIn = true
+// isLogedIn === true ? console.log("Welcome back") : console.log('Please Login')
+
+// 4
+const carOil = true
+// carOil ? console.log('Ready for a long drive') : console.log('Fill the tank')
+
+// 5
+const isExamPassed = false
+// isExamPassed ? console.log('Party time ') : console.log('Next Semester e serious study korbo')
+
+// 6
+const sunny = false
+// sunny? console.log('Gorte gabo') : console.log('Stay home')
+
+// 7
+const Expensive = false 
+// Expensive ? "" : console.log('I will buy this item')
+
