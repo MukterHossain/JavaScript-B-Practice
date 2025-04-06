@@ -211,7 +211,7 @@ if(price >=5000 ){
     // console.log(price)   
 }
 
-// page 83
+// page (83, 84)
 // 1
 const newPrice = 4500 
 if(newPrice >= 6000){
@@ -224,4 +224,66 @@ if(newPrice >= 6000){
     // console.log(`You have to pay ${pay}`)
 } else{
     // console.log(newPrice)
+}
+
+// 2
+const customerAge = 6
+if(customerAge > 60){
+    const discount = price / 100 *50
+    const pay = price - discount
+    // console.log(`You have to pay ${pay}`)
+}else if(customerAge <12){
+    // console.log('He dosen’t have to pay anything') 
+}else{
+    // console.log(price)
+}
+
+// 3
+const accountBalance =7000
+if(accountBalance < 1000){
+    // console.log('Your account balance is low')
+}else if(accountBalance >= 1000 && accountBalance <=5000){
+    // console.log('Your account balance is moderate')
+}else{
+    // console.log('You are rich. So, you merried me')
+}
+
+// 4
+const examMark = 80
+if(examMark < 50){
+    // console.log('You have failed the exam')
+} else if(examMark >= 50 && examMark <= 80){
+    // console.log('You have passed the exam')
+}else{
+    // console.log('You have got A+')
+}
+
+// 5
+const bookPage = 800
+if(bookPage < 100){
+    // console.log('Small book')
+}else if(bookPage >= 100 && bookPage <= 500){
+    // console.log('Medium book')
+}else{
+    // console.log('Heart-attack size book')
+}
+
+// 6
+const todayTamperature = 15
+if(todayTamperature <0){
+    // console.log('Ice')
+}else if(todayTamperature >= 0 && todayTamperature <= 20){
+    // console.log('Cool cool')
+} else {
+    // console.log('Hot hot')
+}
+
+// 7
+const playerLavel = 20
+if(playerLavel < 10){
+    // console.log('Novice')
+} else if(playerLavel >= 10 && playerLavel <= 20){
+    // console.log('Expert')
+}else {
+    // console.log('Pro Gamer')
 }
