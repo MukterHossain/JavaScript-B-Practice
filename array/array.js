@@ -132,6 +132,6 @@ const weather = ['Dighi', 'বৃষ্টি', 'বর্ষা', 'শরৎ']
 
 // 6 
 const sports = ['Football', 'Cricket', 'Voliball']
-console.log(sports.includes('Batminton'))
+// console.log(sports.includes('Batminton'))
 
 

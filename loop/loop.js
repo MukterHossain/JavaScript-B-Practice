@@ -147,3 +147,248 @@ while(num9 <=40){
     num9++
 }
 // console.log(sum3)
+
+
+
+
+
+
+//  *************************************** For Loop *****************************************
+
+
+for(let n=0 ; n <= 10; n++){
+    // console.log(n)
+}
+for(let i=0; i<=20; i++){
+    // console.log(i)
+}
+
+for(let i= 50; i <=100; i++){
+    // console.log(i)
+}
+
+let sum11 = 0
+for(let i=11; i<=20; i++){
+    sum11= sum11 + i
+}
+// console.log(sum11)
+
+// page (114)
+// 1
+
+for(let i=150; i <= 170; i++ ){
+    // console.log(i)
+}
+
+// 2
+let sum12=0
+for(let i=31; i<=58; i++){
+    sum12 = sum12 + i
+}
+// console.log(sum12)
+
+// 3
+let sum13 =0
+for(let i=25; i<= 75; i++){
+    sum13= sum13 + i
+}
+// console.log(sum13)
+
+//  *************************************** For Loop (Even-Odd) *****************************************
+
+for(let i=0; i<=10; i++){
+    if(i %2 == 0){
+        // console.log(i)
+    }
+}
+
+for(let i=1; i<=30; i++){
+    if(i%2 == 1){
+        // console.log(i)
+    }
+}
+
+for(let i=1; i<=20; i++){
+    if(i%2 != 0){
+        // console.log(i)
+    }
+}
+
+for(let i=1; i<= 10 ; i=i+2){
+    // console.log(i)
+}
+for(let i=2; i<= 10; i= i+2){
+    // console.log(i)
+}
+
+
+
+//  *************************************** For Loop (বিভাজ্য) *****************************************
+for(let i=0; i<= 40; i++){
+    if(i%5 == 0){
+        // console.log(i)
+    }
+}
+
+for(let i=0; i<=30; i++){
+    if(i%3 ==0 || i%5 ==0){
+        // console.log(i)
+    }
+}
+for(let i=0; i<=30; i++){
+    if(i%3 ==0 && i%5 ==0){
+        // console.log(i)
+    }
+}
+
+// Page (119)
+// 1
+for(let i=20; i<=50; i++){
+    if(i%7 ==0){
+        // console.log(i)
+    }
+}
+
+
+// 2
+for(let i=40; i<=80; i++){
+    if(i%5 ==0 && i%7 ==0){
+        // console.log(i)
+    }
+}
+
+// 3
+let sum14 = 0
+for(let i=1; i<=40; i++){
+    if(i%13 ==0){
+        sum14 = sum14 +i
+    }
+}
+// console.log(sum14)
+
+
+// 4
+for(let i=1; i<=40; i=i+4){
+    // console.log(i)
+}
+
+// 5
+for(let i=0; i<=100; i++){
+    if(i%9==0 && i%6 ==0){
+        // console.log(i)
+    }
+}
+
+// 6
+let sum15=0
+for(let i=1; i<=50; i++){
+    if(i%3==0 && i%4 ==0){
+        sum15=sum15 +i
+    }
+}
+// console.log(sum15)
+
+
+
+
+
+
+//  *************************************** For Loop (Break and continue) *****************************************
+
+for(let i=0; i<=10; i++){
+    // console.log(i)
+    if(i> 7){
+        break
+    }
+}
+
+for(let i=0; i<=10; i++){
+    // console.log(i)
+    if(i>=7){
+        break
+    }
+}
+
+for(let i=1; i<=10; i++){
+    if(i==8){
+        continue
+    }
+    // console.log(i)
+}
+for(let i=0; i<=20; i++){
+    if(i%2 == 0){
+        continue
+    }
+    // console.log(i)
+}
+for(let i=0; i<=20; i++){
+    if(i%2 == 1){
+        continue
+    }
+    // console.log(i)
+}
+for(let i=0; i<=20; i++){
+    if(i%2 == 1){
+        continue
+    }
+    // console.log(i)
+}
+
+
+
+// page (122)
+// 1
+for(let i=1; i<=30; i++){
+    // console.log(i)
+    if(i== 15){
+        break
+    }
+}
+
+// 2
+for(let i=1; i<=40; i++){   
+    if(i%7 ==0){
+        continue
+    }
+    // console.log(i)
+}
+
+// 3
+for(let i=1; i<=15; i++){
+    if(i==9){
+        continue
+    }
+    // console.log(i)
+}
+
+//4
+for(let i=1; i<=20; i++){
+    if(i==12){
+        continue
+    }
+    // console.log(i)
+}
+
+// 5
+for(let i=1; i<=25; i++){
+    if(i%3==0){
+        continue
+    }
+    // console.log(i)
+}
+
+// 6
+for(let i=91; i<=120; i++){
+    if(i%10==0){
+        break
+    }
+    // console.log(i)
+}
+
+
+
+
+
+
+
+
