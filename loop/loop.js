@@ -90,3 +90,60 @@ while(num4 <111 ){
 
 
 // *************************************** While (Add/যোগ) *****************************************
+
+let num5=1
+let sum = 0
+while(num5 <= 10){
+    // console.log(num5)
+    sum = sum +num5   
+    num5++
+
+} 
+// console.log(sum)
+
+// page (111)
+// 1
+let num6 = 50
+while(num6 <=100){
+    // console.log(num6)
+    num6++
+}
+
+// 2
+let num7 = 5
+let sum1 = 0
+while(num7 <= 15){
+    // console.log(num7)
+    sum1= sum1 + num7
+    num7++
+}
+// console.log(sum1)
+
+// 3
+let students = 1
+let studentsSum=0
+while(students <= 50){
+    // console.log(students)
+    studentsSum = studentsSum + students
+    students++
+}
+// console.log(studentsSum)
+
+// 4
+let num8 = 21
+let sum2 = 0
+while(num8 <=50){
+    sum2 = sum2 + num8
+    // console.log(sum2)
+    num8++
+    
+}
+
+// 5
+let num9 = 20
+let sum3=0
+while(num9 <=40){
+    sum3 = sum3 + num9
+    num9++
+}
+// console.log(sum3)
