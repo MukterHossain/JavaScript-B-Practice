@@ -41,5 +41,18 @@ const person = {
       year: [2011, 2013, 2017, 2018]
    }
 }
-console.log(person)
+// ******************************* Dot notation and bracket notation ******************************
+// console.log(person)
+// console.log(person['married'])
+person.sallry = 10210210
+// console.log(person.sallry)
+person.married = "He insults other girls"
+// console.log(person.married)
+// console.log(person.education.title)
+// console.log(person.education.year)
+// console.log(person.education.year[2])
+
+
+
+
 
