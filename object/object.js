@@ -54,5 +54,49 @@ person.married = "He insults other girls"
 
 
 
+// page (131)
+// 1
+const player = {
+   name: 'Rahat Ali',
+   age: 22,
+   sports : 'Foot ball',
+   team: 'Mon Udash'
+}
+// console.log(player.team)
+
+//4
+const phone = {
+   brand: 'Nokia',
+   color: 'Black',
+   price: 32500,
+
+}
+// console.log(phone.brand)
+// console.log(phone['brand'])
+
+// 7
+const college ={
+   name: 'NDC',
+   established: 1949,
+   groups : ['science', 'Arts', 'Commerce']
+}
+// console.log(college.groups[1])
+
+// 8
+const family ={
+   father : {
+      name: 'Tofajjal',
+      age: 42,
+      profession: 'Banker'
+   },
+   mother : {
+      name: 'Monira Begum',
+      age: 34,
+      profession: 'Teacher'
+   }
+}
+const result = family.father.age + family.mother.age
+// console.log(result)
+
 
 
