@@ -99,4 +99,20 @@ const result = family.father.age + family.mother.age
 // console.log(result)
 
 
+// ******************************* Key and value ******************************
+
+
+// console.log(Object.keys(family))
+// console.log(Object.values(family))
+
+const profile = {
+   name: 'Rahim',
+   age: 25,
+   city: 'Dhaka'
+}
+
+const profileKey = Object.keys(profile)
+const hasName = profileKey.includes('name')
+// console.log(hasName)
+
 
