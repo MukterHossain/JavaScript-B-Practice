@@ -114,5 +114,26 @@ const profile = {
 const profileKey = Object.keys(profile)
 const hasName = profileKey.includes('name')
 // console.log(hasName)
+// if('email' in profile){
+//    console.log('Email exist')
+// }else{
+//    console.log('No email')
+// }
+
+if(profile.hasOwnProperty('email')){
+   // console.log('Email niye boroloki dekhai')
+
+}else{
+   // console.log('Email Chara jibon')
+}
+
+if(profile.city === 'Dhaka'){
+   // console.log('Jam er sohor Dhaka')
+}
+else{
+   // console.log('Arm sob gram else.')
+}
+
+// ******************************* enries ******************************
 
 
