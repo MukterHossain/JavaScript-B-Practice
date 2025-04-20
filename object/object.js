@@ -29,24 +29,24 @@ const trees ={
 
 // *************************************** object  (key of property) *******************************
 
-const person = {
-   name: 'soldor uddain',
-   age: 25, 
-   profession: 'developer',
-   sallry: 25000,
-   married: true,
-   'fav place': ['bandarban', 'saintmartin', 'kuakata'],
-   education: {
-      title: ['SSC', 'HSC', 'BSC', 'MSC'],
-      year: [2011, 2013, 2017, 2018]
-   }
-}
+// const person = {
+//    name: 'soldor uddain',
+//    age: 25, 
+//    profession: 'developer',
+//    sallry: 25000,
+//    married: true,
+//    'fav place': ['bandarban', 'saintmartin', 'kuakata'],
+//    education: {
+//       title: ['SSC', 'HSC', 'BSC', 'MSC'],
+//       year: [2011, 2013, 2017, 2018]
+//    }
+// }
 // ******************************* Dot notation and bracket notation ******************************
 // console.log(person)
 // console.log(person['married'])
-person.sallry = 10210210
+// person.sallry = 10210210
 // console.log(person.sallry)
-person.married = "He insults other girls"
+// person.married = "He insults other girls"
 // console.log(person.married)
 // console.log(person.education.title)
 // console.log(person.education.year)
@@ -134,6 +134,76 @@ else{
    // console.log('Arm sob gram else.')
 }
 
-// ******************************* enries ******************************
+// ******************************* entries ******************************
+const person = {
+   name: 'soldor uddain',
+   age: 25, 
+   profession: 'developer',
+   sallry: 25000,
+   married: true,
+   'fav place': ['bandarban', 'saintmartin', 'kuakata'],
+   education: {
+      title: ['SSC', 'HSC', 'BSC', 'MSC'],
+      year: [2011, 2013, 2017, 2018]
+   }
+}
+
+// const entries = Object.entries(person)
+// console.log(entries)
+
+// for(const key in person){
+//    const value = person[key]
+//    console.log(key, value)
+// }
+
+// const keys = Object.keys(person)
+// for(const key of keys){
+//    console.log(key, person[key])
+// }
 
 
+// page (137)
+// 1
+// const books = {
+//    name: 'Uphold View',
+//    author: 'Shihab Mamun',
+//    price: 230
+// }
+
+// for(const key in books){
+//    const value = books[key]
+//    console.log(key,value )
+// }
+
+
+// 2
+const article = {
+   title : "learning Js",
+   category : 'Programming' 
+}
+
+// if('author' in article){
+//    console.log('Author Ase')
+// }else{
+//    console.log('Author Nai')
+// }
+
+// if(article.hasOwnProperty('author')){
+//    console.log('Author Ase')
+// }else{
+//    console.log('Author Nai')
+// }
+
+
+// 3
+// const laptops = {
+//    brand: "Dell", model:'Inspiron', price: 45000
+// }
+// const laptop = Object.keys(laptops)
+// for(const key of laptop){
+   
+//    console.log(key, laptops[key])
+// }
+
+
+// 4
