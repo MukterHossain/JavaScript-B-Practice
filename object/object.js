@@ -56,21 +56,21 @@ const trees ={
 
 // page (131)
 // 1
-const player = {
-   name: 'Rahat Ali',
-   age: 22,
-   sports : 'Foot ball',
-   team: 'Mon Udash'
-}
+// const player = {
+//    name: 'Rahat Ali',
+//    age: 22,
+//    sports : 'Foot ball',
+//    team: 'Mon Udash'
+// }
 // console.log(player.team)
 
 //4
-const phone = {
-   brand: 'Nokia',
-   color: 'Black',
-   price: 32500,
+// const phone = {
+//    brand: 'Nokia',
+//    color: 'Black',
+//    price: 32500,
 
-}
+// }
 // console.log(phone.brand)
 // console.log(phone['brand'])
 
@@ -95,7 +95,7 @@ const family ={
       profession: 'Teacher'
    }
 }
-const result = family.father.age + family.mother.age
+// const result = family.father.age + family.mother.age
 // console.log(result)
 
 
@@ -135,18 +135,18 @@ else{
 }
 
 // ******************************* entries ******************************
-const person = {
-   name: 'soldor uddain',
-   age: 25, 
-   profession: 'developer',
-   sallry: 25000,
-   married: true,
-   'fav place': ['bandarban', 'saintmartin', 'kuakata'],
-   education: {
-      title: ['SSC', 'HSC', 'BSC', 'MSC'],
-      year: [2011, 2013, 2017, 2018]
-   }
-}
+// const person = {
+//    name: 'soldor uddain',
+//    age: 25, 
+//    profession: 'developer',
+//    sallry: 25000,
+//    married: true,
+//    'fav place': ['bandarban', 'saintmartin', 'kuakata'],
+//    education: {
+//       title: ['SSC', 'HSC', 'BSC', 'MSC'],
+//       year: [2011, 2013, 2017, 2018]
+//    }
+// }
 
 // const entries = Object.entries(person)
 // console.log(entries)
@@ -207,3 +207,142 @@ const article = {
 
 
 // 4
+
+// const phone  = {
+//    brand: 'Samsung', model: "Galaxy S21", price: 85000
+// }
+
+// const result = Object.keys(phone)
+// for(const key of result){
+//    const value = phone[key]
+//    console.log(key, value)
+// }
+
+
+// 5
+// const bike = {
+//    brand: 'Hero', price: 12000, model: 'Splendor'
+// }
+// console.log(Object.values(bike))
+
+// 6
+// const books = {
+//    book1: "Harry potter", book2: "The Hobbit", book3: "Game of Thronse"
+// }
+// for(const key in books){
+//    const name = books[key]
+//    console.log(name)
+// }
+
+// 7
+// const numbers = {
+//    a: 10, b: 20, c:30, d: 40
+
+// }
+// const numGet = Object.values(numbers)
+// let sum = 0
+// for(let num of numGet){
+//    sum = sum + num;
+//    num++
+// }
+// console.log(sum)
+
+
+// 8
+// const player = {
+//    name :"Messi", team: 'Argentina', goals: 91 
+// }
+// console.log(Object.values(player))
+
+
+// 9
+// const building = {
+//    floors: 10, address: {street: 'Main Road', city: 'Dhaka'},
+//    type: 'Commercial'
+// }
+
+// for(const key in building){
+//    const result = building[key]
+//    console.log(key, result)
+// }
+
+
+
+
+// **************************************** Freeze/seal ***************************************
+// const person = {
+//    name: 'soldor uddain',
+//    age: 25, 
+//    profession: 'developer',
+//    role: 'Admin',
+//    email: 'mrjhone@gmail.com',
+//    password: 'newPassword120',
+//    sallry: 25000,
+//    married: true,
+//    'fav place': ['bandarban', 'saintmartin', 'kuakata'],
+//    education: {
+//       title: ['SSC', 'HSC', 'BSC', 'MSC'],
+//       year: [2011, 2013, 2017, 2018]
+//    }
+// }
+
+// delete person.age
+// console.log(person)
+// Object.freeze(person)
+// person.profession = 'IT'
+// person.age = 50
+// console.log(person)
+
+
+// Object.seal(person)
+
+// person.password = '12OldPassword325'
+// person.age = 32
+// console.log(person)
+
+
+// page (139)
+// 1
+// const headphone ={
+//    brand: 'Sony', price: 3000, color: 'red'
+// }
+// Object.freeze(headphone)
+// headphone.brand = "Samsung"
+// console.log(headphone)
+
+// 2
+// const player ={
+//    name: 'Messi', goals: 950, club: 'Inter Miami'
+// }
+// Object.freeze(player)
+// player.name= "Hamza"
+// console.log(player)
+
+// 3
+// const book ={
+//    title: "Harry Porter", auther: "JK Rowling", page: 500
+// }
+// Object.seal(book)
+// book.auther = "Mamun"
+// console.log(book)
+
+// 4 
+// const gadget ={name : 'iPhone', price: 120000, color: 'black'}
+// delete gadget.price
+// console.log(gadget)
+
+// 5
+// const animal ={
+//    name : 'Tiger', location: 'Sundarban', 
+// }
+// Object.freeze(animal)
+// animal.location = 'Dhaka'
+// console.log(animal)
+
+
+// 6
+// const food = {name: 'Pizza', price: 500, size: 'Large'}
+// Object.seal(food)
+// food.price = 600
+// console.log(food)
+
