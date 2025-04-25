@@ -138,3 +138,53 @@
 // console.log(isEven(10)) // true
 
 // Page(153)
+// 1
+// function maxNum(num){
+//     if(num> 10){
+//         return true
+//     }
+//     else{
+//         return false
+//     }
+// }
+// console.log(maxNum(10))
+
+// 2
+// function newNum(num){
+//     if(num % 13 === 0){
+//         return true
+//     }
+//     return false
+// }
+// console.log(newNum(20))
+
+// 3
+// function eatinFood(rice, curry, drinks){
+//     const result = rice + curry + drinks
+//     return result;
+// }
+// console.log(eatinFood(100, 150, 60))
+
+
+// 4
+// function voting(age){
+//     if(age > 18){
+//         return 'Eligible for Voting'
+//     }
+//     return 'Not Eligible'
+// }
+// console.log(voting(10))
+
+// 5
+// function getString(data){
+//     return data.length
+// }
+// const text = "This is my home town"
+// const result = getString(text)
+// console.log(result)
+
+// 6
+// function multiple(a, b, c){
+//     return a+b+c /3
+// }
+// console.log(multiple(20, 10, 40))
