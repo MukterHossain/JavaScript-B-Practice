@@ -188,3 +188,119 @@
 //     return a+b+c /3
 // }
 // console.log(multiple(20, 10, 40))
+
+// 7
+// function checkNum(num){
+//     if(num % 2 === 1){
+//         return num * -1
+//     }
+//     return 'Even'
+// }
+// console.log(checkNum(20))
+
+
+// ****************************************** check even **********************************************
+
+// function getStringSize(str){
+//     const size = str.length
+//     if(size % 2 === 0){
+//         // console.log('this is even')
+//         return true
+//     } else{
+//         return false
+//     //    console.log('this is Odd') 
+//     }
+    
+// }
+// const gStr = "Country"
+// const result = getStringSize(gStr)
+// console.log(result)
+
+// function doubleOrTriple(num, doDouble){
+//     if(doDouble){
+//         return num * 2
+//     }
+//     else{
+//         return num * 3
+//     }
+// }
+// console.log(doubleOrTriple(10, true))
+// console.log(doubleOrTriple(10, false))
+
+// function numberElement(nums){
+//     const len= nums.length
+//     return len
+// }
+// const len = numberElement([12, 10, 25, 20, 24, 6, 9, 20, 50])
+// console.log(len)
+
+
+// page (157)
+// 1
+// function lenGet(arr){
+//     const size = arr.length
+//     if(size % 2 === 0){
+//         return 'Even arr'
+//     } return 'Odd arr'
+// }
+// const arr = lenGet([1, 2, 5, 3, 8, 5, 4 , 6])
+// console.log(arr)
+
+// 2
+// function getName(name){
+//     return name[0]
+// }
+// console.log(getName('Mukter'))
+
+// 3
+// function gatNum(num){
+//     if(num > 10){
+//         const result = num / 10
+//         return result
+//     } return num * 10
+// }
+// console.log(gatNum(20))
+// console.log(gatNum(10))
+
+// 4
+// function addNum(arr){
+//     const result = arr[0] + arr[1]
+//     return result
+// }
+// console.log(addNum([5, 8, 5, 2, 4, 6, 3]))
+
+// 5
+// function getNum(n){
+//     if(n % 2 === 0){
+//         const result = n *2
+//         return result
+//     }
+//     else{
+//         const result = n *3
+//         return result
+//     }
+// }
+// console.log(getNum(10))
+// console.log(getNum(19))
+
+// 6
+// function getTwoName(name1, name2){
+//     if(name1.length > name2.length){
+//         return true
+//     } return false
+// }
+// console.log(getTwoName('Mukter Hossain', 'Nazmul'))
+// console.log(getTwoName('Mukter', 'Nazmul Islam'))
+
+// 7
+// function getNewNum(num1, num2){
+//     const mul=num1 * num2
+//     if(mul > 100){
+//         return mul /2
+//     } 
+//     return mul
+// }
+
+// console.log(getNewNum(10, 8))
+// console.log(getNewNum(10, 12))
+
