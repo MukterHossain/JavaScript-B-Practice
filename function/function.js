@@ -199,7 +199,7 @@
 // console.log(checkNum(20))
 
 
-// ****************************************** check even **********************************************
+// ****************************************** check even return **********************************************
 
 // function getStringSize(str){
 //     const size = str.length
@@ -303,4 +303,127 @@
 
 // console.log(getNewNum(10, 8))
 // console.log(getNewNum(10, 12))
+
+
+
+
+// ****************************************** Array Operation **********************************************
+
+// function sumOfNum(numbers){
+//     let sum = 0
+//     for(const num of numbers){
+//         sum = sum + num
+//         // console.log(sum)
+//     }
+//     return sum
+    
+// }
+
+// const result = sumOfNum([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+// console.log(result)
+// function sumOfEvenNum(numbers){
+//     let sum = 0
+//     for(const num of numbers){
+//         if(num % 2 === 0){
+//             sum = sum + num
+//         }
+//     }
+//     return sum
+    
+// }
+
+// const result = sumOfEvenNum([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+// console.log(result)
+
+
+// page (161)
+// 1
+// function sumOfOddNum(numbers){
+//     let sum = 0
+//     for(const num of numbers){
+//         if(num % 2 === 1){
+//             sum = sum + num
+//         }
+//     }
+//     return sum
+// }
+// console.log(sumOfOddNum([5, 15, 8, 7]))
+
+
+// 2
+// function getNum(numbers){
+//    if(numbers.length < 2){
+//     return "অ্যারেতে অন্তত দুইটি উপাদান থাকা দরকার।"
+//    }
+//    return numbers[0] < numbers[1] ? numbers[0] : numbers[1]
+// }
+
+// // const result  = getNum([20, 45, 78])
+// console.log(getNum([20, 12, 78]))
+// console.log(getNum([20, 45, 78]))
+
+// 3
+// function myAge(age){
+//     if(age< 18){
+//         return 18
+//     } else if(age > 45){
+//         return 45;
+//     } return age
+// }
+// console.log(myAge(15))
+// console.log(myAge(50))
+// console.log(myAge(35))
+
+// 4
+// function sumOfNum(numbers){
+//     let sum = 0
+//     for(const num of numbers){
+//         if(num % 4 === 0){
+//             sum = sum + num
+//         }
+//     }
+//     return sum
+// }
+// console.log(sumOfNum([2, 4, 5, 7, 8, 32, 45]))
+
+// 5
+// function getNum(num){
+//     if(num<20){
+//         return num * 2
+//     } return num / 20
+// }
+
+// console.log(getNum(10))
+// console.log(getNum(40))
+
+// 6
+// function negNum(numbers){
+//     let sum = 0
+//     for(const num of numbers){
+//         if(num < 0){
+//             sum = sum + num
+//         }
+//     }
+//     return sum
+// }
+
+// const result = negNum([1, -21, 2, -32, -14, 25, -562])
+// console.log(result)
+
+// 7 
+// function multiple(numbers){
+//     let sum = 1
+//     for(const num of numbers){
+//         if(num % 3 === 0){
+//             sum = sum * num
+//         }
+//     }
+//     return sum
+// }
+// console.log(multiple([2, 3, 6, 8, 9, 11, 12, 14, 17, 18, 21]))
+
+
+
+
+
 
