@@ -152,20 +152,91 @@
 
 
 // 3
-function examMarks(marks){
-    if(marks >= 80 || marks <=100){
-        return 'A'
-    }else if(marks >= 70 || marks <79){
-        return 'B'
-    }else if(marks >=60 || marks <69){
-        return 'C'
-    }else if(marks >= 50 || marks <59){
-        return 'D'
-    } return 'F'
-}
-console.log(examMarks(120))
-console.log(examMarks(90))
-console.log(examMarks(75))
-console.log(examMarks(62))
-console.log(examMarks(55))
-console.log(examMarks(40))
+// function examMarks(marks){
+//     if(marks >= 80 || marks <=100){
+//         return 'A'
+//     }else if(marks >= 70 || marks <79){
+//         return 'B'
+//     }else if(marks >=60 || marks <69){
+//         return 'C'
+//     }else if(marks >= 50 || marks <59){
+//         return 'D'
+//     } return 'F'
+// }
+// console.log(examMarks(120))
+// console.log(examMarks(90))
+// console.log(examMarks(75))
+// console.log(examMarks(62))
+// console.log(examMarks(55))
+// console.log(examMarks(40))
+
+
+// const array = [1, 2, 3, 4, 6, 7, 8, 9, 10]
+// const object = {
+//     name: 'Mukter',
+//     age: 29,
+//     education: {
+//         ssc: 'Dakhil',
+//         hsc: 'Alim'
+//     },
+
+// }
+// for(const item of array){
+//     console.log(item)
+// }
+// for(const item in object){
+//     console.log(item)
+// }
+
+
+// function oddAverage(numbers){
+//     let odds=[]
+//     for(const number of numbers){
+//         if(number % 2 !==0){
+//             odds.push(number)
+//         }
+//     }
+//     if(odds.length === 0){
+//         return 0;
+//     }
+//     let sum =0
+//     for(const number of odds){
+//         sum = sum + number
+//     }
+//     const count = odds.length
+//     const avg = sum / count
+//     return avg
+    
+// }
+
+// console.log(oddAverage([2, 3, 4, 5, 6, 7, 9, 8, 12, 10, 15]))
+// console.log(oddAverage([2, 6, 4, 10, 6, 7, 9, 8, 12, 10, 16]))
+// console.log(oddAverage([2, 10, 4, 50, 6, 70, 90, 8, 12, 10, 150]))
+
+
+// page (175)
+// 1 
+// function evenAverage(numbers){
+//     let even = []
+//     for(const number of numbers){
+//         if(number % 2 === 0){
+//             even.push(number)
+//         }
+//     }
+    
+//     if(even.length === 0){
+//         return 0
+//     }
+//     let sum = 0
+//     for(const num of even){
+//         sum = sum + num
+//     }
+//     const count = even.length
+//     const avg = even / count
+//     console.log(even)
+//     return avg
+// }
+
+// console.log(evenAverage([2, 3, 4, 5, 6, 7, 9, 8, 12, 10, 15]))
+
+
