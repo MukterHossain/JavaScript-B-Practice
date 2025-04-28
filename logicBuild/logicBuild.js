@@ -239,4 +239,101 @@
 
 // console.log(evenAverage([2, 3, 4, 5, 6, 7, 9, 8, 12, 10, 15]))
 
+// 2
+// function oddArray(numbers){
+//     let newArr = []
+//     for(const arr of numbers){
+//         if(arr % 2 ===1){
+//             const getArr = arr * 2
+//             newArr.push(getArr)
+//         }
+//     }
+//     return newArr
+// }
+
+// console.log(oddArray([1, 2, 3, 4, 5, 6, 7, 8, 98, 10, 11, 12]))
+
+
+// 3
+// function isOddNumbers(numbers){
+//     for(const num of numbers){
+//         if(num % 2 !==1){
+//             return 'No odd numbers found'
+//         } return "Odd numbers found"
+//     }
+// }
+
+// console.log(isOddNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9]))
+// console.log(isOddNumbers([2, 4, 6, 0, 8, 10]))
+
+
+// 4 
+function oddAverage(numbers){
+    let getArr = []
+    for(const number of numbers){
+        if(number % 2 ===1){
+            getArr.push(number)
+        }
+    }
+    let sum = 0
+    for(const num of getArr){
+        sum = sum + num
+    }
+    const count = getArr.length
+    const avg = sum / count
+    return avg
+}
+// console.log(oddAverage([1, 2, 3, 4, 5, 6, 7, 8, 9]))
+
+// 5
+// function minusNumbers(numbers){
+//     let newNum = []
+//     for(const num of numbers){
+//         if(num % 2 ===1){
+//           const getNum = num -1
+//             newNum.push(getNum)
+//         }
+//     }
+//     return newNum;
+// }
+// console.log(minusNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9]))
+
+
+// **************************************** Duplicate Delete ************************************
+// function noDuplicate(array){
+//     let unique = []
+//     for(const item of array){
+//         if(unique.includes(item) === false){
+//             unique.push(item)
+//         }
+//     }
+//     return unique;
+// }
+// console.log(noDuplicate([1, 2, 3, 4, 5, 5, 6, 4, 7, 8, 5, 8, 9, 10]))
+// console.log(noDuplicate(['abul', 'babul', 'cabul', 'abul', 'babul', 'dabul']))
+
+
+// page(177)
+// 1
+// function noDuplicateRemove(array){
+//     let unique = []
+//     for(const item of array){
+//         if(unique.includes(item) === false){
+//             unique.push(item)
+//         }
+//     }
+//     return unique
+// }
+// console.log(noDuplicateRemove([1, 5, 61, 5, 87, 7, 5, 81, 61]))
+let a = 5
+let b = 7
+
+
+console.log(a, b)
+const temp = a
+a = b
+b = temp
+console.log(a, b)
+
+
 
