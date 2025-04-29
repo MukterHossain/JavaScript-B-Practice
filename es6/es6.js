@@ -50,6 +50,72 @@
 // console.log(member('Mukter'))
 // console.log(member(1, 1200))
 
+// 4
+// function square(number = 1){
+//     const result = number * number
+//     return result;
+// }
+// console.log(square())
+// console.log(square(5))
+
+// 5
+// function addProduct(name = 'Unknown Product', cost =1){
+//     const result = name + ' , ' + cost
+//     return  result
+// }
+// console.log(addProduct())
+// console.log(addProduct('bolod', 120))
+
+
+//6
+// function getArray(array = ['JS Book']){
+//     return array;
+// }
+// console.log(getArray())
+// console.log(getArray([1, 2, 3, 4, 5]))
+
+// 7
+// function gotMoney(price = 10, quantity = 1){
+//     const result = price * quantity
+//     return result
+// }
+// console.log(gotMoney(20, 5))
+// console.log(gotMoney())
+
+// 8
+// function newArray(array = [5, 10, 15]){
+//     let arr = []
+//     for(const num of array){
+//         const result = num * 2
+//         arr.push(result)
+//     }
+//     return arr;
+    
+// }
+// console.log(newArray())
+// console.log(newArray([1, 2, 3, 4, 5, 6, 7]))
+
+//9
+// function simpleInterest({principal = 1000, rate = 5} = {}){
+//     const result = (principal * rate) / 100
+//     return result
+// }
+
+// console.log(simpleInterest())
+// console.log(simpleInterest({ principal:10000, rate: 10 }))
+// console.log(simpleInterest({ principal:50000, rate: 10 }))
+
+// 10
+function getSalary({salary = 50000, tax=10}={} ){
+    const getTax = (salary * tax ) / 100
+    const pay = salary - getTax
+    return pay
+}
+console.log(getSalary())
+console.log(getSalary({salary: 10000, tax: 20}))
+console.log(getSalary({salary: 100000, tax: 5}))
+
+
 
 
 
