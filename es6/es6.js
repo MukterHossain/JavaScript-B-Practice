@@ -106,22 +106,76 @@
 // console.log(simpleInterest({ principal:50000, rate: 10 }))
 
 // 10
-function getSalary({salary = 50000, tax=10}={} ){
-    const getTax = (salary * tax ) / 100
-    const pay = salary - getTax
-    return pay
-}
-console.log(getSalary())
-console.log(getSalary({salary: 10000, tax: 20}))
-console.log(getSalary({salary: 100000, tax: 5}))
+// function getSalary({salary = 50000, tax=10}={} ){
+//     const getTax = (salary * tax ) / 100
+//     const pay = salary - getTax
+//     return pay
+// }
+// console.log(getSalary())
+// console.log(getSalary({salary: 10000, tax: 20}))
+// console.log(getSalary({salary: 100000, tax: 5}))
+
+
+
+
+// ******************************************* Template String *************************************
+
+// const a = 10
+// const b = 20
+// const result  = 'The sum of ' + a + ' and ' + b + ' is ' + (a + b)
+// const result  = `The sum of ${a} and ${b} is ${a + b}`
+
+// console.log(result)
+// console.log(`
+//     Amar sonar bangla
+//     Ami tomay valobasi
+//     chito din tomar akash
+//     Tomar batas
+//     `)
+
+// const getName = function(){
+//     return "Naem Ahmed"
+// }
+// const message = `Na Bolle Naem, ase amar ${getName()}`
+// console.log(message)
+
+// const age = 20
+// const result = `You are ${age > 18 ? 'Adult': 'Minor'}`
+// console.log(result)
+
+
+// const user = {name: 'mukter', age: 25}
+// const info = `Name: ${user.name}, Age: ${user.age}`
+// console.log(info)
+
+// const fruits = ["Apple", "Tariq", "Mango"]
+// const second = `My second favorite fruit is: ${fruits[1]}`
+// const list = `My favorite fruits are: ${fruits.join(",")}`
+// console.log(list)
+
+// const title = "Welcome"
+// const body = "This is a dynamic template"
+// const html = `<div>
+// <h1>${title}</h1>
+// <p>${body}</p>
+// </div>`
+// console.log(html)
+
+// const radius = 5
+// const area = `Circle area is ${Math.PI*radius ** 2}.`
+// console.log(area)
+
+// const greet = function(name){
+//     return `Hello, ${name}`
+// }
+// console.log(greet('Naem'))
+
+// page (191)
+// 1
 
 
 
 
 
 
-
-
-
-// ******************************************* Default *************************************
-// ******************************************* Default *************************************
+// ******************************************* Arrow Function *************************************
