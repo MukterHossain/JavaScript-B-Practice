@@ -209,5 +209,79 @@
 
 
 
+// ************************************************* Arrow Function *******************************************
 
-// ******************************************* Arrow Function *************************************
+// const student = {name: 'ananta', age: 23}
+// const getName = person => person.name;
+// const getAge = (person) => person.age
+// const names = getName(student)
+// const age = getAge(student)
+// console.log(names, age)
+
+
+// const getThird= numbers => numbers[3]
+// const third = getThird([1, 5, 26, 3215, 25, 14])
+// console.log(third)
+// const getPi = () => Math.PI
+// console.log(getPi())
+
+// const doMath = (x,y,z) =>{
+//     const sum = x + y+ z
+//     const mult = x*y*z
+//     const result = sum + mult
+//     return result
+// }
+// console.log(doMath(3, 5, 8))
+
+// const person ={
+//     name: "Ananta",
+//     greetRegular: function(){
+//         console.log('Hello,' + this.name)
+//     },
+//     greetArrow: () =>{
+//         console.log("Hello," + this.name)
+//     }
+// }
+
+// person.greetRegular()
+// person.greetArrow()
+
+// const greet =(name = 'Bolod') => `Hello ${name}`
+// console.log(greet())
+// console.log(greet('Mamma'))
+// const getObject = () => ({key: 'value'})
+// console.log(getObject())
+
+
+// page (195)
+// 1
+// const getIndex = (name) => name[2]
+// console.log(getIndex([1, 2, 3, 4, 5, 6]))
+
+// 2
+// const multNum = (a, b, c) => a * b * c;
+// console.log(multNum(2, 3, 4))
+
+// 3
+// const unknownMan=() => "Unknown"
+// console.log(unknownMan())
+
+// 4
+ 
+// 5
+// const arrayMath = (name) =>{
+//     const nameLa = name[name.length -1]
+//     const sum = name[0] + nameLa
+//     console.log(sum)
+//     return sum
+// }
+// const array = [5, 2, 3, 4, 5, 6, 7, 8, 50, 20]
+// const result = arrayMath(array)
+// console.log(result)
+
+// const add = (num1 = 10, num2 =5) => num1 + num2
+// console.log(add())
+// console.log(add(20, 10))
+
+
+
