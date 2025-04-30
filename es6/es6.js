@@ -172,6 +172,38 @@
 
 // page (191)
 // 1
+// function difference(num1, num2){
+//     const result = `Difference of ${num1} and ${num2} is ${num1 - num2}`
+//     return result
+// }
+// console.log(difference(100, 20))
+
+// 2
+// function employee({name, age, sallery}){
+//     return `Name: ${name}, Age: ${age} and Sallery: ${sallery}`
+// }
+// console.log(employee({name:'Mukter', age:29, sallery:22000}))
+
+//3
+// const fruits = ['Mango', 'Banana', 'Pineaple', 'Watermelon']
+// console.log(`My favorite fruit is: ${fruits[1]}`)
+
+// 4
+// const a = 50
+// const b = 10 
+// console.log(`The division of ${a} and ${b} is ${a/b}`)
+
+// 5
+// const person = {firstName: "Amit", lastName: 'Kumar'}
+// console.log(`Full Name is : ${person.firstName} ${person.lastName}`)
+
+// 6
+
+// 7
+// const student = {name: 'Maksud', age:25, result: [78, 85, 90]}
+// const getResult = `Name: ${student.name}, Average marks: ${(student.result[0] + student.result[1] + student.result[2])/3}`
+// console.log(getResult)
+
 
 
 
