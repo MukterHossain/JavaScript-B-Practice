@@ -16,5 +16,7 @@
  }
 
 
- const {name, age } = person;
+ const {name, age, education } = person;
  console.log(name, age)
+ const {school, college, university} = education
+ console.log(school, college, university)
