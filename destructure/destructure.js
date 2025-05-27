@@ -20,3 +20,6 @@
  console.log(name, age)
  const {school, college, university} = education
  console.log(school, college, university)
+
+ const numberF =('mama')
+ console.log(numberF,  education.school)
