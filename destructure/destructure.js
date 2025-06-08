@@ -16,10 +16,15 @@
  }
 
 
- const {name, age, education } = person;
- console.log(name, age)
- const {school, college, university} = education
- console.log(school, college, university)
+ const {name, age, education, hobbies } = person;
+//  console.log(name, age)
+ const {school:newSchool, college, university} = education
+//  console.log(school, college, university)
 
  const numberF =('mama')
- console.log(numberF,  education.school)
+//  console.log(numberF,  education.school)
+const [a, b, c] = hobbies;
+const add = person.education.college;
+console.log(add)
+console.log(newSchool)
+console.log(a, b, c)
