@@ -268,22 +268,22 @@
 
 
 // 4 
-function oddAverage(numbers){
-    let getArr = []
-    for(const number of numbers){
-        if(number % 2 ===1){
-            getArr.push(number)
-        }
-    }
-    let sum = 0
-    for(const num of getArr){
-        sum = sum + num
-    }
-    const count = getArr.length
-    const avg = sum / count
-    return avg
-}
-// console.log(oddAverage([1, 2, 3, 4, 5, 6, 7, 8, 9]))
+// function oddAverage(numbers){
+//     let getArr = []
+//     for(const number of numbers){
+//         if(number % 2 ===1){
+//             getArr.push(number)
+//         }
+//     }
+//     let sum = 0
+//     for(const num of getArr){
+//         sum = sum + num
+//     }
+//     const count = getArr.length
+//     const avg = (sum / count).toFixed(3)
+//     return avg
+// }
+// console.log(oddAverage([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13]))
 
 // 5
 // function minusNumbers(numbers){
@@ -325,15 +325,15 @@ function oddAverage(numbers){
 //     return unique
 // }
 // console.log(noDuplicateRemove([1, 5, 61, 5, 87, 7, 5, 81, 61]))
-let a = 5
-let b = 7
+// let a = 5
+// let b = 7
 
 
-console.log(a, b)
-const temp = a
-a = b
-b = temp
-console.log(a, b)
+// console.log(a, b)
+// const temp = a
+// a = b
+// b = temp
+// console.log(a, b)
 
 
 
