@@ -25,6 +25,13 @@
 //  console.log(numberF,  education.school)
 const [a, b, c] = hobbies;
 const add = person.education.college;
-console.log(add)
-console.log(newSchool)
-console.log(a, b, c)
+// console.log(add)
+// console.log(newSchool)
+// console.log(a, b, c)
+
+function doubleTehm(a, b){
+    return [a *2, b * 2]
+}
+const [pro, dit] = doubleTehm(5, 10);
+console.log(pro, dit)
+
