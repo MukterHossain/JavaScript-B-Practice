@@ -33,5 +33,9 @@ function doubleTehm(a, b){
     return [a *2, b * 2]
 }
 const [pro, dit] = doubleTehm(5, 10);
-console.log(pro, dit)
+// console.log(pro, dit)
+
+const person1 = {name1: "Amit", age:25};
+const {name1, phone = "N/A"} = person1;
+console.log(name1, phone)
 
