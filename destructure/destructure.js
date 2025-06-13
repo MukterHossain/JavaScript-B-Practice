@@ -37,5 +37,12 @@ const [pro, dit] = doubleTehm(5, 10);
 
 const person1 = {name1: "Amit", age:25};
 const {name1, phone = "N/A"} = person1;
-console.log(name1, phone)
+// console.log(name1, phone)
+
+function introduce({name, age}){
+    console.log(`Name: ${name}, Age: ${age}`)
+}
+
+const user = {name: "Arohi", age:20, hobby: "Reading"}
+introduce(user);
 
