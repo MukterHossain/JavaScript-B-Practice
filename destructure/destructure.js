@@ -115,3 +115,91 @@
 
 
 //  *********************** Rest operator *********************
+
+
+// const numbers = [1, 2, 3, 4, 5]
+// const [m, n, ...rest] = numbers
+// console.log(`m: ${m}, n: ${n}, rest: ${rest}`)
+
+// const [x,y, ...mukter] = [1, 2, 2 ,"Mukter", "Hossain", 21, 35]
+// console.log(`x: ${x}, y: ${y}, Others: ${mukter}`)
+
+// const person = {
+//     name: "Alice", age: 30, city: "Dhaka", country: "Bangladesh"
+// }
+
+// const {name, city, ...details} = person
+// console.log(`Name: ${name}, City: ${city}, Details:`, details)
+
+// function sum(num1, ...nums){
+//     console.log(nums)
+//     let total =[]
+//     nums.map(x => x + 2)
+//     console.log(total)
+// }
+
+// sum(1, 2, 3, 4, 5); // Output: [2, 3, 4, 5]
+
+
+// pactise (204 page)
+// 1
+// const product = {name: "Laptop", price: 5000, brand: "Dell"}
+// const {name, ...rest} = product;
+// console.log(rest)
+
+
+// 2
+// const project = {id: 101, title:"Web App", budget: 3000, client: "Tech Corp"}
+// const {title, ...rest} = project;
+// console.log(rest)
+
+// 3
+// const programmer = {name: "Sophia", language: "JavaScript", experience: 5, specialy: "Frontend", tools: "React"}
+// const {language, specialy, ...rest} = programmer;
+// console.log(language)
+// console.log(specialy)
+// console.log(rest)
+
+// 4
+// const Array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// const [x, y, ...rest] = Array;
+// console.log(rest)
+
+// 5
+// function sum(x, y, ...rest){
+//     const total = x + y + rest.reduce((acc, curr) => acc + curr, 0);
+//     return total;
+// }
+
+// const result = sum(1, 2, 3, 4, 5);
+// console.log(result)
+
+// function sum(...x){
+//     return x.reduce((a, b) => a + b, 0)
+// }
+// console.log(sum(1, 2, 3, 4, 5)); // Output: 15
+
+// function sum(...x){
+//     const total = x.reduce((a, b) => a + b, 0)
+//     console.log(total)
+//     return total/ x.length
+// }
+// console.log(sum(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)); // Output: 15
+
+
+//  *********************** Spread operator *********************
+// const max = Math.max(2, 5, 65, 241, 23)
+// console.log(max)
+
+// const numbers = [1, 2, 3, 4, 5];
+// console.log(Math.max(...numbers))
+
+const num = [1, 2, 3, 4, 5];
+const num1 = num 
+const num2 = [...num] 
+console.log(num)
+num.push(12000)
+num1.push(6, 10)
+num2.push(19, 10)
+console.log(num1)
+console.log(num2)
