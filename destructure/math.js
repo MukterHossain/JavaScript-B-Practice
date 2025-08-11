@@ -1,0 +1,15 @@
+
+// export const sum = (a, b) => a + b
+
+
+// export function add(a,b){
+//     return a + b
+// }
+
+// export function multiply(a, b){
+//     return a *b
+// }
+
+export default function greet(){
+    return "Hello World"
+}

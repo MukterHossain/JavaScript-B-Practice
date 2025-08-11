@@ -15,6 +15,8 @@
 //     hobbies: ["reading", "traveling", "coding"]
 //  }
 
+// import { sum } from "./math.js";
+
 
 //  const {name, age, education, hobbies } = person;
 // //  console.log(name, age)
@@ -194,12 +196,65 @@
 // const numbers = [1, 2, 3, 4, 5];
 // console.log(Math.max(...numbers))
 
-const num = [1, 2, 3, 4, 5];
-const num1 = num 
-const num2 = [...num] 
-console.log(num)
-num.push(12000)
-num1.push(6, 10)
-num2.push(19, 10)
-console.log(num1)
-console.log(num2)
+// const num = [1, 2, 3, 4, 5];
+// const num1 = num 
+// const num2 = [...num] 
+// console.log(num)
+// num.push(12000)
+// num1.push(6, 10)
+// num2.push(19, 10)
+// console.log(num1)
+// console.log(num2)
+
+// const friends = [1, 2, 3, 4, 5];
+// console.log(friends)
+// const newFriends = [...friends, 6, 7, 8];
+// console.log(newFriends)
+// friends.push(12, 23)
+// console.log(friends)
+// newFriends.push("Hasib", "Amit")
+// console.log(newFriends)
+
+// const array1 = [1, 2, 3]
+// const array2 = [4, 5, 6]
+// const combinedArray = [...array1, ...array2]
+// console.log(combinedArray)
+
+// const person = {name: "Alice", age: 30, city: "Dhaka"}
+// const newperson = {...person, country: "Banladesh"}
+// console.log(newperson)
+
+// practice (209 page)
+//1
+// const technologies = ["Condition", "array", "loop"]
+// const newVariable = ["Variable", ...technologies]
+// console.log(newVariable)
+
+//2 
+// const fruits = ["Apple", "Banana", "Mango"]
+// const myFruits = [...fruits, "papaya", "orange"]
+// console.log(myFruits)
+
+// 3
+// const frontEnd = ["JavaScript",]
+// console.log(frontEnd)
+// const backEnd = ["Node.js"]
+// const database = ["MongoDB"]
+// const fullStack = [...frontEnd, ...backEnd, ...database]
+// console.log(fullStack)
+
+// 6
+// const car = {make: "Toyota", model: "Corolla", year: 2020}
+// const newCar = {...car}
+// console.log(newCar)
+// newCar.year = 2030
+// console.log(newCar)
+
+// console.log(sum(5, 6))
+
+// import {add, multiply} from "./math.js"
+// console.log(add(5, 6))
+// console.log(multiply(5, 6))
+
+import greethjjjjjj  from "./math.js"
+console.log(greethjjjjjj())
