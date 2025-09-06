@@ -9,3 +9,20 @@
  * 
  * 
  */
+/**
+ * 1. rest operator
+ * 2. reduce method 
+ * 
+ * 
+ */
+
+// ************** Array Method **************
+/**
+ * 1. forEach, map, filter, find, 
+ * 2. some , every, flat
+ * 3. reduce, sort, reverse, slice, splice
+ * 
+ * 
+ */
+
+
