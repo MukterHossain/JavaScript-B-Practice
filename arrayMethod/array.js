@@ -124,7 +124,41 @@
 // console.log(result)
 
 
-//************************** some and every  ****************** */
+//************************** some, flat and every  ****************** */
+
+// const score = [30, 45, 55, 80, 90]
+// const result = score.some(sr=> sr >=50)
+// console.log(result)
+
+// const score = [70, 85, 55, 80, 90]
+// const result = score.every(sr=> sr >=50)
+// console.log(result)
+
+// const nested = [1, 2, [3, 4, [5, 6]]]
+// const result = nested.flat(2)
+// console.log(result)
+
+// practice 224 page
+//1 
+// const numbers = [50, 70, 80, 90, 100, 110, 120]
+// const result = numbers.some(num => num > 100)
+// console.log(result)
+
+// 2
+// const numbers = [50, 70, 80, 90, 100, 110, 120, 222]
+// const result = numbers.every(num => num % 5)
+// console.log(result)
+
+// 3
+// const words = ['smart', 'cricket', 'science', 'computer', 'mathematics']
+// const result = words.some(word => word === 'science')
+// console.log(result)
+
+// 4
+// const ages = [22, 25, 27, 30, 35, 40, 45, 50]
+// const result = ages.every(age => age >= 18)
+// console.log(result)
 
 
+//************************** reduce  ****************** */
 
