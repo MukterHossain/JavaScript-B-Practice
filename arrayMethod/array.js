@@ -162,9 +162,17 @@
 
 //************************** reduce  ****************** */
 
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-let sum = 0
-for(const num of numbers){
-    sum = sum + num
-}
-console.log(sum)
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// let sum = 0
+// for(const num of numbers){
+//     sum = sum + num
+// }
+// console.log(sum)
+
+// const result = numbers.reduce((previous, current) => previous + current, 0)
+// console.log(result)
+
+const numbers =  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+const result = numbers.reduce((previous, current) => previous * current, 1)
+console.log(result)
+
